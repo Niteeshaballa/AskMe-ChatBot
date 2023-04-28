@@ -1,0 +1,185 @@
+:root {
+  --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  --msger-bg: #fff;
+  --border: 2px solid #ddd;
+  --left-msg-bg: #20b2aa;
+  --right-msg-bg: #20b2aa;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  background-image: var(--body-bg);
+  font-family: Helvetica, sans-serif;
+}
+
+.msger {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 40%;
+  max-width: 1800px;
+  margin: 10px 10px;
+  height: calc(100% - 50px);
+  border: var(--border);
+  border-radius: 30px;
+  background: var(--msger-bg);
+  box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+}
+
+.msger-header {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+  border-bottom: var(--border);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background: #20b2aa;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.msger-chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+.msger-chat::-webkit-scrollbar {
+  width: 6px;
+}
+.msger-chat::-webkit-scrollbar-track {
+  background: #ddd;
+}
+.msger-chat::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+}
+.msg {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.msg-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20%;
+}
+.msg-bubble {
+  max-width: 450px;
+  padding: 8px;
+  border-radius: 15px;
+  background: var(--left-msg-bg);
+}
+.msg-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.speaker-icon {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.msg-info-name {
+  /*margin-right: 10px;*/
+  font-weight: bold;
+}
+.msg-info-time {
+  font-size: 0.70em;
+  font-weight: normal;
+}
+
+
+.left-msg .msg-bubble {
+  border-bottom-left-radius: 0;
+  color: #fff;
+}
+
+.right-msg {
+  flex-direction: row-reverse;
+}
+.right-msg .msg-bubble {
+  background: var(--right-msg-bg);
+  color: #fff;
+  border-bottom-right-radius: 0;
+}
+.right-msg .msg-img {
+  margin: 0 0 0 10px;
+
+}
+
+.msger-inputarea {
+  display: flex;
+  padding: 15px 10px 15px 10px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: #20b2aa;
+}
+.msger-inputarea * {
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+}
+.msger-input {
+  flex: 1;
+  background: #20b2aa;
+  color: #FFFFFF;
+  font-weight: normal;
+
+}
+.msger-input::placeholder {
+  color: #FFFFFF;
+}
+.msger-input:focus {
+  outline: none;
+}
+.msger-send-btn {
+  margin-left: 10px;
+  background: #20b2aa;
+  color: #fff;
+  cursor: pointer;
+}
+
+.msger-mic-btn {
+  background: #20b2aa;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.23s;
+}
+
+.msger-mic-btn i {
+  font-size: 0.5em;
+  vertical-align: middle;
+}
+
+
+.msger-chat {
+  background-image: url(https://chatbot.axisbank.com/static/media/background.5f52deef.png);
+  background-size: cover;
+  background-color: #fcfcfe;
+}
+
+
