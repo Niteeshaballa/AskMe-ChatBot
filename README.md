@@ -1,3 +1,5 @@
+## AskMe Bot - an AI bot for software services
+
 The training.py file is used to train the model
 and store the model, classes and words files.
 
