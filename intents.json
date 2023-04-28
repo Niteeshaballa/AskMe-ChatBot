@@ -1,0 +1,135 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","Hello! Nice to meet you", "What can I do for you?"]
+  },
+
+  {
+    "tag": "Good morning",
+    "patterns": ["Good morning", "hi, good morning", "hello, good morning"],
+    "responses": ["Good morning, thank you for visiting our company website. How can we assist you?","Good morning! How can we assist you today?", "Good morning, welcome to our company. How may we help you?"]
+  },
+
+  {
+    "tag": "Good afternoon",
+    "patterns": ["Good afternoon", "hello, good afternoon", "hi, good afternoon"],
+    "responses": ["Good afternoon, thank you for visiting our company website.. How can we assist you?","Good afternoon, welcome to our company. How may we help you?", "Good afternoon! How can we assist you today?"]
+  },
+
+  {
+    "tag": "Good evening",
+    "patterns": ["good evening", "hello, good evening", "hi, good evening"],
+    "responses": ["Good evening, thank you for visiting our company website.. How can we assist you?","Good evening, welcome to our company. How may we help you?", "Good evening! How can we assist you today?"]
+  },
+
+  {
+    "tag": "formal",
+    "patterns": ["how are you?", "how are you doing?", "what'up?", "hello, how are you?"],
+    "responses": ["I'm good, thank you", "I'm fine, how can I assist you?", "Doing good, What can I help you with?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Ask Me","I'm Ask Me","I'm Ask Me your virtual assistant"]
+  },
+
+  {"tag": "About",
+  "patterns": ["What is the mission of your company?","Can you tell me about the history and background?","I want to know about the company", "Want to know about the company","Can you share your company information", "Could you please mention what your company is about"],
+  "responses": ["Curio technologies is a global IT service provider and founded to assist corporation better manage their operation, through a cost-effective combination of professional services and technology. \nWe are headquartered in Ontario, Canada. Our company has over 10 years of experience in Design, Technology and Consulting. \nWe take pride in delivering Intelligent Technology Consulting and Engaging Experiences for clients all over the World also offers process outsourcing services. \nCurio is a company specialized in professional services, IT Consulting Services Software & Enterprise Application Development, Data Warehousing, Database development and Software Testing services."]
+  },
+
+  {"tag": "Services",
+  "patterns": ["what services are available?", "how many services are there in this organization?", "what services do you provide?", "what are the main things that this company do?", "What services does the company offer?", "Can you tell me more about the services provided by your company?", "What types of services are available on your website?", "What is the company's area of expertise?"],
+  "responses": ["Curio technologies is a global IT service provider and founded to assist corporation better manage their operation, through a cost-effective combination of professional services and technology. \nWe are offering \n\nIT Consulting, \n\nSoftware Development, \n\nData Warehousing, \n\nSoftware Testing, \n\nCloud Management, \n\nCloud Migration, \n\nCloud Security, \n\nCloud Consulting"]
+  },
+
+  {
+    "tag": "Pricing",
+    "patterns": ["What are the prices for the services provided by the company?", "Can you provide me with pricing information for Curiosoft services?", "What is the pricing structure for your services?", "what is the price of a service?"],
+    "responses": ["The pricing structure and details are confidential to our company and will be discussed in the meeting."]
+  },
+
+  {"tag": "IT Consulting",
+  "patterns": ["Can you tell me about IT Consulting service", "Want to know more about the IT Consulting service", "What comes under IT consulting?", "IT consulting", "How does the IT consulting works?"],
+  "responses": ["We design winning strategies in meeting this need. \nWe deliver value and performance through our mastery of digital advances, information insight and business transformation."]
+  },
+
+   {"tag": "Software Development",
+  "patterns": ["Tell me more about Software Development service","Want to know about the Software Development service", "What is software development service?", "Software development service", "about software development"],
+  "responses": ["We offers complete range of development services to cater to the needs of the industries that it focuses on. \nWe also ensures successful deployment of its business applications big data product platforms through its range of implementation services."]
+  },
+
+  {"tag": "Data Warehousing",
+  "patterns": ["share some information about Data Warehousing service","give me details about the Data Warehousing service", "Data Warehousing service", "provide information regarding the data warehousing"],
+  "responses": ["Following best practices in data warehousing can lead up to a 50% decrease in cost. \nWe provide Services to help companies gain control over their existing data with cost effective database cleansing and enrichment."]
+  },
+
+  {"tag": "Software Testing",
+  "patterns": ["Can you share information about Software Testing service","Want to know about the Software Testing service"],
+  "responses": ["Our QA lab has full range of outsourcing software testing services. \nWe can provide you with any type of manual and automated software testing, dedicated testing teams, \nQA and QC support in IT outsourcing software testing projects and more."]
+  },
+
+  {"tag": "Cloud Management",
+  "patterns": ["Can you share information about Cloud Management service","Want to know about the Cloud Management service"],
+  "responses": ["Cloud management is the process of maintaining oversight and administrative control of \ncloud computing products and services, whether deployed in public, private, or hybrid cloud environments. \nThe practice of cloud management combines different software products and technologies together to provide a cohesive management strategy and process."]
+  },
+
+  {"tag": "Cloud Migration",
+  "patterns": ["Can you share information about Cloud Migration service","Want to know about the Cloud Migration service"],
+  "responses": ["Cloud migrations are not just a quick lift-shift your current infrastructure to the Cloud, \nit needs to follow a certain set of processes to achieve the successful migration to any cloud. \nWe at 1clouditsolutions Our experts have helped companies to successfully migrate their infrastructure to Cloud without any disruption and they make sure it is fast, \ncost-optimized, and also they are efficient in setting up automation processes to take full advantage of the Cloud."]
+  },
+
+  {"tag": "Cloud Security",
+  "patterns": ["How does Curiosoft approach cloud solution projects?","Can you share information about Cloud Security service","Want to know about the Cloud Security service"],
+  "responses": ["Cloud computing is the delivery of hosted services, including software, hardware, and storage, over the Internet. \nThe benefits of rapid deployment, flexibility, low up-front costs, and scalability, have made cloud computing virtually universal among organizations of all sizes, often as part of a hybrid/multi-cloud infrastructure architecture."]
+  },
+
+  {"tag": "Cloud Consulting",
+  "patterns": ["Can you share information about Cloud Consulting service","Want to know about the Cloud Consulting service"],
+  "responses": ["Curiosoft Technologies provides consulting, migration and management services for the largest public cloud platforms in the world, \noffering managed services for AWS. \nWe empower companies to realize the full potential of the cloud, letting them to leverage our expertise, tools, \nand experience to address their business requirements."]
+  },
+
+  {
+    "tag": "Subscribe",
+    "patterns": ["Can I contact the employer?", "How to get the services?", "contact the owner"],
+    "responses": ["you can give your mail id and subscribe using this link.<a href='https://curiosofttech.com/'>Subscribe</a>", "Scroll to the bottom of the page in the link provided and submit your mail id. We will get back to you shortly.<a href='https://curiosofttech.com/'>Subscribe<a> "]
+  },
+
+  {"tag": "Careers",
+  "patterns": ["What types of positions are typically available?","Does Curiosoft have any job openings currently available?","Are there any job opportunities?", "I need a job", "Any openings right now", "How can I apply for a job?", "I want to apply for an IT job", "What are the career opportunities?"],
+  "responses": ["You can check this link for the job openings.<a href='https://curiosofttech.com/careers/'>Careers</a> \nhowever we request you to send us your resume to info@curiosofttech.com \nWe will certainly get back to you at the earliest."]
+  },
+
+  {
+   "tag": "Support",
+    "patterns": ["How can I contact the company for support or sales inquiries?","Where can I find technical support resources for the services?","Can you help me troubleshoot an issue I'm having with your services?","I'm having trouble with your services. How can I get technical support?"],
+    "responses": ["you can drop a request to our mail id info@curiosofttech.com and we will get back to you."]
+  },
+
+  {
+    "tag": "Client",
+    "patterns": ["Can you tell me about the clients?","what clients do you have?", "who are the clients you work with?", "what about the client background?"],
+    "responses": ["We do all kinds of software developments for our clients and provide managed services & implementation of Cloud Infrastructure all over the world. Reach us @ info@curiosofttech.com for more information"]
+  },
+
+   {"tag": "goodbye",
+  "patterns": ["Good Bye","Bye","cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya", "Nice chatting to you, bye", "Till next time"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk", "no way", "what are you talking"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {
+    "tag": "Contact",
+    "patterns": ["What is the company's availability for new projects?","How can I contact Curiosoft team?", "Can you provide me with the contact information for Curiosoft support team?", "What is the best way to get in touch with your team?"],
+    "responses": ["Our address is 2612 Deputy Minister Path, Oshawa, ON, Canada. You can call us at +1 (647) 987-5777 |+1 (647) 895-9054 or you can drop us a mail at info@curiosofttech.com."]
+  },
+
+  {"tag": "Thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Thank you for contacting us. We look forward to helping you.","Thank you for visiting us. We hope you found the information you were looking for.","Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
